@@ -6,7 +6,7 @@ module.exports = {
       summary: `who works as Software Engineer in Bangladesh 🇧🇩.`
     },
     description: `A diary of failures and learning.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://elegant-feynman-7dc1aa.netlify.com/`,
     social: {
       twitter: `dhruba1427`
     }
@@ -79,7 +79,6 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       }
     },
-    // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
