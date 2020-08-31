@@ -6,7 +6,7 @@ module.exports = {
       summary: `who works as Software Engineer in Bangladesh 🇧🇩.`
     },
     description: `A diary of failures and learning.`,
-    siteUrl: `https://elegant-feynman-7dc1aa.netlify.com/`,
+    siteUrl: `https://aroup.space`,
     social: {
       twitter: `dhruba1427`
     }
