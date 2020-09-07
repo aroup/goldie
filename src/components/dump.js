@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Dump = props => {
   return (
@@ -7,7 +7,7 @@ const Dump = props => {
         fontSize: 20,
         border: '1px solid #efefef',
         padding: 10,
-        background: 'white',
+        background: 'white'
       }}
     >
       {Object.entries(props).map(([key, val]) => (
@@ -19,7 +19,7 @@ const Dump = props => {
         </pre>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Dump
+export default Dump;

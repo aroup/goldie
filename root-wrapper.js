@@ -8,11 +8,25 @@ const components = {
       style={{
         fontFamily: `cascadia_coderegular, Montserrat, sans-serif`,
         backgroundColor: 'pink',
-        padding: '1rem'
+        padding: '1rem',
+        fontSize: '20px',
+        marginTop: 0,
+        marginBottom: '20px'
       }}
     >
       {children}
     </h2>
+  ),
+  h3: ({ children }) => (
+    <h3
+      style={{
+        fontFamily: `cascadia_coderegular, Montserrat, sans-serif`,
+        marginTop: 0,
+        marginBottom: '20px'
+      }}
+    >
+      {children}
+    </h3>
   ),
   'p.inlineCode': props => (
     <code style={{ backgroundColor: 'lightgray' }} {...props} />
